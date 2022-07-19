@@ -12,7 +12,7 @@ create table user_entity(
 	pincode int not null,
 	phone_number NUMERIC(10) not null,
 	email_id varchar(150) not null,
-    password varchar(20) not null,
+        password varchar(20) not null,
  	role_type varchar(20) not null,
 	manager_id varchar(10) null,
 	FOREIGN key(manager_id)
@@ -37,4 +37,18 @@ create table videos(
 	duration_in_min smallint not null,
     duration_in_sec smallint not null,
 	url varchar(500) not null	
+);
+
+insert into user_entity values('MD','MD','Mr','Male',35,'123 abc nagar',null,'chennai'
+                              ,'TamilNadu','India',600001,1234567890,'md@stech.com','md@123','Manager',null);
+                              
+create table leave_entity(
+    serial_no serial,
+    employee_id varchar(10) not null,
+    employee_name varchar(100) not null,
+    from_date varchar(10) not null,
+    to_date varchar(10) not null,
+    reason varchar(250) not null,
+    manager_id varchar(10) not null,
+    status varchar(8) null
 );
