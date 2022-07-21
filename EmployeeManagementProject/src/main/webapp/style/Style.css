@@ -1,0 +1,407 @@
+@charset "UTF-8";
+
+/* Index page */
+
+.indexdropbtn {
+	background-color: #3498DB;
+	color: black;
+	font-size: 20px;
+	width: 90px;
+	height: 40px;
+	background-color: white;
+	margin-left:100px;
+	margin-top:50px;
+	
+	
+}
+
+.indexdropbtn:hover {
+	background-color: #ccffe6;
+}
+
+.indexdropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.indexdropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin-left:100px;
+	margin-top:5px;
+}
+
+.indexdropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.indexdropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.indexshow {
+	display: block;
+}
+
+#indexsoft {
+	text-align: center;
+	background-color: #1ac6ff;
+	color: white;
+	margin-top: 5%;
+	font-size: 4.8em;
+	font-family:"Brush Script MT", cursive;
+	text-shadow: 5px 7px 3px gray;	
+}
+
+/* .h1 {
+	margin-top: auto;
+} */
+
+.indexsideshow{
+
+   text-align: center;
+   margin-top: 20px;
+
+}
+
+.indexfixed-footer{
+       
+       text-align: center;
+}
+
+
+/* Register */
+
+
+#Registerbodyimage{
+	background-image: url('../images/bgdash1.jpg');
+
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Registerbackbtn{
+	width: 78px;
+	height: 40px;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+}
+
+/* Login page */
+
+
+.loginimages {
+	height: 50px;
+	width: 50px;
+	margin-left: 35%;
+	margin-top: 10px;
+}
+
+.logincenter {
+	text-align: center;
+	margin-top: 15px;
+}
+
+.loginfont {
+	font-size: 1.3em;
+}
+
+.loginside {
+	margin: auto;
+	width: 220px;
+}
+
+.loginsize {
+	height: 350px;
+	width: 50px;
+	background-color: white;
+	border-radius: 10px;
+}
+#loginbackbtn{
+	width: 78px;
+	height: 40px;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+}
+
+/* Employee Dashboard */
+
+.Employeedash-seperatebutton{
+
+width: 150px;
+height: 70px;
+border-radius: 10px;
+color: white;
+background-color: #4d79ff;
+}
+
+.Employeetablecolour{
+
+width: 100px;
+height: 400px;
+border-radius: 10px;
+background-color:  #ffffff;
+}
+#Employeefont
+{
+text-shadow: 3px 2px 2px #4080bf;
+color:white;
+font-size: 3em;
+}
+#Employeelog-out
+{
+
+background-color: #ffffff;
+}
+
+
+/* manager-Dashboard */
+
+.Managerdashseperate-button{
+
+width: 250px;
+height: 100px;
+border-radius: 10px;
+color: white;
+background-color: #4d79ff;
+}
+
+.Managerdashtablecolour{
+
+width: 1px;
+height: 400px;
+border-radius: 10px;
+background-color: #ffffff;
+}
+#Managerdashfont
+{
+text-shadow: 3px 2px 2px #4080bf;
+color:white;
+font-size: 3em;
+}
+
+/*leaveform  */
+.leaveFormbox {
+	width: 150px;
+	height: 550px;
+	background-color: white;
+	margin-top: 2%;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+#leaveformfont {
+	color: white;
+}
+.leaveformimage
+{
+background-image:url('../images/bgdash1.jpg'); 
+height: 100vh;
+}
+
+/* payslip */
+
+#payslipbackbtn {
+	width: 80px;
+	height: 40px;
+	font-size: 1em;
+	color: white;
+	background-color: black;
+}
+
+/* leaveStatus */
+
+
+#leaveStatusbackbtn{
+	width: 80px;
+	height: 40px;
+	margin-left:90%;
+	margin-top: 2%;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+}
+
+/* bookList */
+
+#booklisttable {
+margin-left:35%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  
+}
+
+#booklisttable td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: white;
+}
+
+#booklisttable tr:hover {background-color: #ddd;}
+
+#booklisttable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#bookListfont
+{
+text-shadow: 3px 2px 2px #4080bf;
+color:white;
+font-size: 3em;
+}
+
+#bookListbackbtn{
+	width: 80px;
+	height: 40px;
+	margin-left:58.75%;
+	margin-top: 2%;
+    font-size: 1em;
+}
+/* book */
+
+
+.bookheading{
+text-align: center;
+font-family: cursive;
+font-size: 2.5em;
+font-weight: bold;
+
+}
+
+.booktablecenter{
+ margin-left: auto;
+ margin-right: auto;
+}
+.bookformlabel{
+font-family: cursive;
+font-size: 1.5em;
+font-weight: bold;
+}
+#bookbackimage
+{
+background-image: url("../images/bookbg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+}
+#bookbackbtn {
+	width: 80px;
+	height: 40px;
+	font-size: 1em;
+	color: white;
+	background-color: black;
+	margin-left: 75%;
+	margin-top: 1%;
+}
+
+/* videoList */
+
+
+#videoListtable {
+margin-left:35%;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  
+}
+
+#videoListtable td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: white;
+}
+
+#videoListtable tr:hover {background-color: #ddd;}
+
+#videoListtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#videoListfont
+{
+text-shadow: 3px 2px 2px #4080bf;
+color:white;
+font-size: 3em;
+}
+#videosListbackbtn{
+	width: 80px;
+	height: 40px;
+	margin-left:58.75%;
+	margin-top: 2%;
+    font-size: 1em;
+}
+
+/* video*/
+
+.videoheading{
+text-align: center;
+background-color:black;
+font-family: cursive;
+font-size: 2.5em;
+font-weight: bold;
+color: white;
+}
+
+.videotablecenter{
+ margin-left: auto;
+ margin-right: auto;
+}
+.videoFormLabel{
+font-family: cursive;
+font-size: 1.7em;
+font-weight: bold;
+color: white;
+}
+#videobackbtn {
+	width: 80px;
+	height: 40px;
+	font-size: 1em;
+	color: black;
+	background-color: white;
+	margin-left: 75%;
+}
+
+/* viewleave */
+
+
+.viewleavebox {
+	width: 150px;
+	height: 770px;
+	background-color: white;
+	margin-top: 2%;
+	border-radius: 10px;
+}
+#applyLeaveFormHeading {
+	color: white;
+}
+#viewleavebox{
+	width: 80px;
+	height: 40px;
+	margin-left:58.75%;
+	margin-top: 2%;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
